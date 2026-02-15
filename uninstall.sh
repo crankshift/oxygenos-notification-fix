@@ -1,4 +1,7 @@
 #!/system/bin/sh
 
-# Revert changes when the module is removed
-# TODO: Add cleanup logic here
+# Revert to stock OOS16 defaults
+settings delete global device_idle_constants
+cmd power set-adaptive-power-savings-enabled true
+settings put global adaptive_battery_management_enabled 1
+settings put system ai_preload_user_state 1

@@ -34,6 +34,18 @@ This is a KernelSU (KSU) and Magisk compatible module that fixes notification is
 └── .gitignore
 ```
 
+## What the Module Does
+
+Fixes delayed notifications on OOS16. The root cause is aggressive battery/background optimization.
+`service.sh` disables these after boot:
+
+- `device_idle_constants` — zeroes doze idle timeouts
+- `set-adaptive-power-savings-enabled false` — disables adaptive power savings
+- `adaptive_battery_management_enabled 0` — disables adaptive battery
+- `ai_preload_user_state 0` — disables OPlus AI preload
+
+`uninstall.sh` reverts all four to stock defaults.
+
 ## Key Concepts
 
 ### Dual Compatibility (KSU + Magisk + APatch)

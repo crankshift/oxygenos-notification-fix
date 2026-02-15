@@ -10,3 +10,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release
 - KernelSU, Magisk, and APatch support
+- Fix delayed notifications by disabling aggressive OOS16 battery optimization
+- Full revert of all changes on module uninstall

@@ -6,7 +6,9 @@ Tested on **OnePlus 15** (Android 16, OxygenOS 16). Should work on other OxygenO
 
 ## What it does
 
-TODO: Document the specific notification fixes.
+Fixes delayed notifications on OxygenOS 16 by disabling aggressive battery/background optimization that prevents timely notification delivery.
+
+Changes applied at boot and fully reverted on module removal.
 
 ## Installation
 
