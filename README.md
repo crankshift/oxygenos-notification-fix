@@ -1,6 +1,6 @@
 # OxygenOS 16 Notification Fix
 
-KernelSU / Magisk / APatch module that fixes notification issues on OxygenOS 16.
+KernelSU / Magisk / APatch module that fixes notification delay issues on OxygenOS 16.
 
 Tested on **OnePlus 15** (Android 16, OxygenOS 16). Should work on other OxygenOS 16 devices.
 
