@@ -1,0 +1,6 @@
+id=oos16-notification-fix
+name=OxygenOS 16 Notification Fix
+version=v1.0.0
+versionCode=1
+author=crankshift
+description=Fixes notification issues on OxygenOS 16

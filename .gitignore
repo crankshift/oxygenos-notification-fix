@@ -1,0 +1,12 @@
+# Build output
+*.zip
+build/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
